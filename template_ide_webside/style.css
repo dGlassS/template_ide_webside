@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.d1, .d2{
+    margin: auto;
+}
+.d1{
+    margin-top: 25vh;
+    padding-top: 0;
+}
+.d1 h3{
+    font-weight: 100;
+    font-size: 5vh;
+    letter-spacing: 3px;
+}
+.d1 button{
+    color: white;
+    margin-top: 1.8cm;
+    padding: 15px;
+    background-color: rgb(65, 65, 65);
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+.d1 button:hover{
+    background-color: gray;
+}
+.slo p{
+    margin: 2px;
+}
+.d2{
+    margin-top: 13vh;
+    padding: 50px;
+    border-radius: 7px;
+    background-color: rgb(65, 65, 65);
+    box-shadow: 0 5px 44px 0 rgba(91, 97, 100, 0.25);
+}
+.d2 p{
+    margin-top: 1.5cm;
+}    
+.download{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.download button{
+    border: none;
+    border-radius: 2px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 30%;
+    background-color: rgb(70, 70, 70);
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    font-size: 18px;
+}
+.download button:hover{
+    background-color: peru;
+}
+.other{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.other a{
+    text-decoration: none;
+    color: peru;
+    font-size: 13px;
+}
+.other a:hover{
+    text-decoration: underline;
+}
